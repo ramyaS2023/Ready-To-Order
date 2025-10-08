@@ -1,0 +1,84 @@
+# ========================
+# Node modules (All folders)
+# ========================
+node_modules/
+**/node_modules/
+
+# ========================
+# Build outputs
+# ========================
+build/
+dist/
+**/build/
+**/dist/
+
+# ========================
+# Environment files
+# ========================
+.env
+.env.local
+.env.development
+.env.production
+Backend/.env
+.env
+**/.env
+
+# ========================
+# Log files
+# ========================
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# ========================
+# OS system files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor settings
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# Coverage / Test outputs
+# ========================
+coverage/
+**/coverage/
+
+# ========================
+# Cache files
+# ========================
+.cache/
+**/.cache/
+.temp/
+.tmp/
+
+# ========================
+# Deployment folders
+# ========================
+.vercel/
+.netlify/
+firebase-debug.log
+firebase.json
+
+# ========================
+# Miscellaneous
+# ========================
+*.zip
+*.tar.gz
+*.tgz
+*.bak
+*.tmp
+
+# ========================
+# Optional: local uploads / media
+# ========================
+uploads/
+**/uploads/
